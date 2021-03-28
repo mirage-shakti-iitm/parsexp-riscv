@@ -12,7 +12,7 @@ build: [
 ]
 depends: [
   "ocaml-riscv"    {>= "4.04.2"}
-  "base"     {>= "v0.14" & < "v0.15"}
+  "base-nat-riscv"     {>= "v0.14" & < "v0.15"}
   "sexplib0-riscv" {>= "v0.14" & < "v0.15"}
   "dune"     {>= "2.0.0"}
 ]
