@@ -1,5 +1,5 @@
 (library (name parsexp) (public_name parsexp) (libraries sexplib0 base.caml)
-(ocamlopt_flags (-default-compartment-id 6 -function-sections))
+(ocamlopt_flags (-default-compartment-id 39 -function-sections))
  (preprocess no_preprocessing)
  (lint
   (pps ppx_js_style -check-doc-comments ppx_compare ppx_sexp_conv
